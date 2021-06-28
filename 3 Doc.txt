@@ -1,0 +1,11 @@
+SKIDOS_B Applications
+
+	1.) The MainAvtivity of the application has a Scroll View and two Buttons (Fetch And Show Data).
+
+	2.) Clicking the (Fetch Data) Button makes an API call to "https://testinterest.s3amazonaws.com/interest.json".
+
+	3.) After which the data/(interest.json) file is stored locally at "/storage/emulated/0/Download/interest.json".
+
+	4.) Clicking on the (Show Data) Button shows the locally saved data in a Scroll View.
+
+	5.) If the data has been saved locally already, Only the (Show Data) Button is visible.
